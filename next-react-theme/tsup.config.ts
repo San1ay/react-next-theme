@@ -10,4 +10,5 @@ export default defineConfig({
   format: ["esm", "cjs"],
   splitting: false,
   bundle: true,
+  onSuccess: "cp src/themes.css dist/themes.css",
 });

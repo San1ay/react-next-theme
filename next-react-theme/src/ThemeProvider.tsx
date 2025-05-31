@@ -26,7 +26,7 @@ export const ThemeProvider = ({ children, colorScheme = false }: { children: Rea
       if (savedColor) {
         setColorState(savedColor);
       } else {
-        setColorState(savedTheme === "dark" ? "red" : "green");
+        setColorState("red");
       }
     }
   }, []);

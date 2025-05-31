@@ -8,7 +8,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "prepublish": "pnpm build --filter react-next-theme"
+    "prepublish": "pnpm build --filter next-react-theme"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
